@@ -172,7 +172,7 @@ export default function Navigation({ theme, activeSection, onSectionClick, onThe
           isOffcanvasOpen ? 'translate-x-0' : 'translate-x-full'
         } ${theme === 'dark' ? 'bg-black border-l border-white/10' : 'bg-white border-l border-black/10'}`}
         aria-label="Mobile navigation menu"
-        aria-hidden={!isOffcanvasOpen}
+        inert={!isOffcanvasOpen ? '' : undefined}
       >
         <div className="flex flex-col h-full">
           {/* Header */}
