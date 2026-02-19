@@ -2,6 +2,8 @@
 
 Vite + React + TypeScript로 만든 Vercel/Linear 스타일의 세련된 개발자 포트폴리오입니다.
 
+[https://nextnove.github.io/](https://nextnove.github.io/)
+
 ## ✨ 특징
 
 - **⚡ Vite + TypeScript** - 초고속 개발 서버와 타입 안전성
